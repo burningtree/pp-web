@@ -163,16 +163,16 @@
                             {#if config.refs.signal}
                                 <a href={config.refs.signal}>Signal</a>
                             {/if}
-                            {#if config.refs.bsky}
-                                <a
-                                    href="https://bsky.app/profile/{config.refs
-                                        .bsky}">Bluesky</a
-                                >
-                            {/if}
                             {#if config.refs.nostr}
                                 <a
                                     href="https://primal.net/p/{config.refs
                                         .nostr}">Nostr</a
+                                >
+                            {/if}
+                            {#if config.refs.bsky}
+                                <a
+                                    href="https://bsky.app/profile/{config.refs
+                                        .bsky}">Bluesky</a
                                 >
                             {/if}
                             {#if config.refs.github}
